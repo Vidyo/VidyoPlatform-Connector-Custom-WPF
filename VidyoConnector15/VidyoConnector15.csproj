@@ -134,14 +134,26 @@
     <Compile Include="..\..\..\include\csharp\Call.cs">
       <Link>sdk\Call.cs</Link>
     </Compile>
+    <Compile Include="..\..\..\include\csharp\CameraControlCapabilities.cs">
+      <Link>sdk\CameraControlCapabilities.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\include\csharp\CameraEffectStats.cs">
+      <Link>sdk\CameraEffectStats.cs</Link>
+    </Compile>
     <Compile Include="..\..\..\include\csharp\ChatMessage.cs">
       <Link>sdk\ChatMessage.cs</Link>
     </Compile>
     <Compile Include="..\..\..\include\csharp\Connector.cs">
       <Link>sdk\Connector.cs</Link>
     </Compile>
+    <Compile Include="..\..\..\include\csharp\ConnectorCameraEffectInfo.cs">
+      <Link>sdk\ConnectorCameraEffectInfo.cs</Link>
+    </Compile>
     <Compile Include="..\..\..\include\csharp\ConnectorPKG.cs">
       <Link>sdk\ConnectorPKG.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\include\csharp\ConnectorShareOptions.cs">
+      <Link>sdk\ConnectorShareOptions.cs</Link>
     </Compile>
     <Compile Include="..\..\..\include\csharp\Contact.cs">
       <Link>sdk\Contact.cs</Link>
@@ -155,8 +167,14 @@
     <Compile Include="..\..\..\include\csharp\Endpoint.cs">
       <Link>sdk\Endpoint.cs</Link>
     </Compile>
+    <Compile Include="..\..\..\include\csharp\EndpointCameraEffectInfo.cs">
+      <Link>sdk\EndpointCameraEffectInfo.cs</Link>
+    </Compile>
     <Compile Include="..\..\..\include\csharp\EndpointPKG.cs">
       <Link>sdk\EndpointPKG.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\include\csharp\EndpointShareOptions.cs">
+      <Link>sdk\EndpointShareOptions.cs</Link>
     </Compile>
     <Compile Include="..\..\..\include\csharp\EndpointStats.cs">
       <Link>sdk\EndpointStats.cs</Link>
@@ -272,6 +290,12 @@
     <Compile Include="..\..\..\include\csharp\NetworkInterfaceStats.cs">
       <Link>sdk\NetworkInterfaceStats.cs</Link>
     </Compile>
+    <Compile Include="..\..\..\include\csharp\NetworkService.cs">
+      <Link>sdk\NetworkService.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\include\csharp\NetworkServiceCAInfo.cs">
+      <Link>sdk\NetworkServiceCAInfo.cs</Link>
+    </Compile>
     <Compile Include="..\..\..\include\csharp\Participant.cs">
       <Link>sdk\Participant.cs</Link>
     </Compile>
@@ -323,6 +347,9 @@
     <Compile Include="..\..\..\include\csharp\RoomStats.cs">
       <Link>sdk\RoomStats.cs</Link>
     </Compile>
+    <Compile Include="..\..\..\include\csharp\SizeT.cs">
+      <Link>sdk\SizeT.cs</Link>
+    </Compile>
     <Compile Include="..\..\..\include\csharp\Statistics.cs">
       <Link>sdk\Statistics.cs</Link>
     </Compile>
@@ -341,6 +368,9 @@
     <Compile Include="..\..\..\include\csharp\VideoPlane.cs">
       <Link>sdk\VideoPlane.cs</Link>
     </Compile>
+    <Compile Include="..\..\..\include\csharp\VirtualAudioSource.cs">
+      <Link>sdk\VirtualAudioSource.cs</Link>
+    </Compile>
     <Compile Include="..\..\..\include\csharp\VirtualDeviceManager.cs">
       <Link>sdk\VirtualDeviceManager.cs</Link>
     </Compile>
@@ -349,6 +379,9 @@
     </Compile>
     <Compile Include="..\..\..\include\csharp\VirtualVideoSource.cs">
       <Link>sdk\VirtualVideoSource.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\include\csharp\VirtualWindowShare.cs">
+      <Link>sdk\VirtualWindowShare.cs</Link>
     </Compile>
     <Compile Include="Commands\BindableCommand.cs" />
     <Compile Include="Converters\ConnectionStateToEnabledConverter.cs" />
